@@ -14,8 +14,8 @@ public class Main {
         int tableSize = size.nextInt();
         int[] table = new int[tableSize];
 
-        for (int i = 0; i < tableSize; i++) {
-            System.out.println("Please type the value of #" + i + " index of the table");
+        for (int i = 0; i < table.length; i++) {
+            System.out.println("Please type the value of #" + i + " element of the table");
             table[i] = value.nextInt();
             sum += table[i];
             if (table[i] > highestValue) {
